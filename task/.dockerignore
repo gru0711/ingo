@@ -1,0 +1,7 @@
+# Build context is deliverables/. Only the agent-facing task statement and the vendored
+# baseline source bundle may enter the build (the bundle is bind-mounted, not copied).
+*
+**
+!TASK.md
+!vendor/
+!vendor/cron-parser-5b08cdf.bundle
